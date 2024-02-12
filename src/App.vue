@@ -12,7 +12,8 @@
 </script>
 
 <template>
-    <AppHeader/>
+  <AppHeader/>
+  <AppMain/>
 </template>
 
 <style lang="scss">
