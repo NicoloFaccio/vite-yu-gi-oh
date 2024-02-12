@@ -14,8 +14,9 @@
 <template>
     <main>
         <section>
-            <h1>ciao</h1>
-
+            <div>
+                <p>Found 39 cards</p>
+            </div>
             <CardList/>
         </section>
     </main>
@@ -27,6 +28,12 @@
     section {
         margin: 0 auto;
         width: 80%;
+        div:first-child {
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            padding: 20px;
+        }
     }
   }
 </style>
